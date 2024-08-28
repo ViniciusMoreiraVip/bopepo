@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.1
+Created-By: 10.0-b23 (Sun Microsystems Inc.)
+Class-Path: lib/jrimum-domkee-0.2.3-DEV-SNAPSHOT.jar lib/jrimum-texgit-0.2.3-DEV-SNAPSHOT.jar lib/jrimum-utilix-0.2.3-DEV-SNAPSHOT.jar lib/jrimum-vallia-0.2.3-DEV-SNAPSHOT.jar
+X-COMMENT: Main-Class will be added automatically by build

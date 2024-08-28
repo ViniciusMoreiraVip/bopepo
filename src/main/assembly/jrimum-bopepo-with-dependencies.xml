@@ -12,11 +12,35 @@
 			<outputDirectory>/</outputDirectory>
 			<useProjectArtifact>true</useProjectArtifact>
 			<unpack>true</unpack>
+			<scope>runtime</scope>
 			<excludes>
 				<exclude>commons-lang:commons-lang</exclude>
 				<exclude>log4j:log4j</exclude>
 				<exclude>com.lowagie:itext</exclude>
+				<exclude>META-INF/LICENSE.txt</exclude>
+				<exclude>LICENSE.txt</exclude>
 			</excludes>
+			<unpackOptions>
+				<excludes>
+					<exclude>**/LICENSE.txt</exclude>
+				</excludes>
+			</unpackOptions>
 		</dependencySet>
 	</dependencySets>
+	  <files>
+    <file>
+      <source>README.txt</source>
+      <outputDirectory>/</outputDirectory>
+      <filtered>true</filtered>
+    </file>
+    <file>
+      <source>LICENSE.txt</source>
+      <outputDirectory>/</outputDirectory>
+    </file>
+    <file>
+      <source>README.md</source>
+      <outputDirectory>/</outputDirectory>
+      <filtered>true</filtered>
+    </file>
+  </files>
 </assembly>
